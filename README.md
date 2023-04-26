@@ -1,5 +1,8 @@
 # ColocalVision
-A GUI-based tool for ImageJ designed to streamline the colocalization analysis process for fluorescent microscopy images, by assisting masking &amp; thresholding procedures
+A GUI-based tool for ImageJ designed to streamline the colocalization analysis process for fluorescent microscopy images, by assisting masking &amp; thresholding procedures, featuring automated thresholding, channel computations, masking operations, and more
+
+![Script Composite](https://user-images.githubusercontent.com/131828718/234436550-63974c89-84f3-465d-ad21-87a0da60d65f.png)
+
 
 # To install:
 ```
