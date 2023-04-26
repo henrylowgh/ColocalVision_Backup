@@ -17,7 +17,7 @@ git clone https://github.com/henryghlow/ColocalVision
 (7)	Open the specific cropped image that you want to analyze. Run the AnalyzeImage.ijm script from "Plugins > Run" at the ImageJ menu. 
 (8)	The user interface will pop up. Input the average threshold values (general practice for decimal values is to round up to the nearest integer) for each channel. Adjust the other parameters as needed. Click “Run.”
 (9)	The script will automatically perform the thresholding and produce the measurements/data/results in tables. You can save the tables as a spreadsheet compatible with Excel.
- 
+
 Batch Processing Auto-Threshold Analysis Script Notes:
 - This script is used to calculate the average threshold values produced by autothresholding of a large batch of image files. These values can be calculated using a variety of autothreshold algorithms of differing signal sensitivity, which can be selected according to the user’s specific needs. These averaged threshold values for each channel are then displayed in a custom ImageJ table and also automatically saved as a .csv/.tsv/Excel file. These values can be inputted into the colocalization analysis script, with the goal of enabling greater consistency across image analyses.
 - When run, the script will prompt the user to select a target folder containing their image files, as well as a destination folder to store their saved threshold values.
