@@ -1,9 +1,10 @@
-@software{ColocalVision Citation,
-  author = {Low, Henry},
-  title = {{ColocalVision: A Colocalization Analysis Tool for Fluorescent Microscopy Images}},
-  year = {2022},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/henrylowgh/ColocalVision/}},
-  commit = {4f57d6a0e4c030202a07a60bc1bb1ed1544bf679}
-}
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Low"
+  given-names: "Henry"
+  orcid: "https://orcid.org/0009-0000-2348-9791"
+title: "ColocalVision: An Automated Image Analysis Tool for Evaluating Colocalization in Fluorescent Microscopy Images"
+version: 1.2
+date-released: 8-1-2021
+url: "https://github.com/henrylowgh/ColocalVision/"
