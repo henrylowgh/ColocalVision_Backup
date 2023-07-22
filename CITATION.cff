@@ -1,6 +1,6 @@
 @misc{ColocalVision Citation,
   author = {Low, Henry},
-  title = {ColocalVision: A Colocalization Analysis Tool for Fluorescent Microscopy Images},
+  title = {{ColocalVision: A Colocalization Analysis Tool for Fluorescent Microscopy Images}},
   year = {2022},
   publisher = {GitHub},
   journal = {GitHub repository},
