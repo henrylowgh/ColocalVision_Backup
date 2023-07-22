@@ -5,6 +5,7 @@ authors:
   given-names: "Henry"
   orcid: "https://orcid.org/0009-0000-2348-9791"
 title: "ColocalVision: An Automated Image Analysis Tool for Evaluating Colocalization in Fluorescent Microscopy Images"
-version: 1.2
+version: 1.0
+doi: 10.5281/zenodo.8173501
 date-released: 8-1-2021
 url: "https://github.com/henrylowgh/ColocalVision/"
