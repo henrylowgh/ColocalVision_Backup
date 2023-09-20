@@ -12,7 +12,7 @@ A GUI-based tool for ImageJ designed to streamline the colocalization analysis p
 ```
 git clone https://github.com/henryghlow/ColocalVision
 ```
-
+ 
 # To use:
 
 (1)	Set up a folder containing all of the images you want to include in your batch analysis.
