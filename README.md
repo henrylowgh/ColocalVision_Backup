@@ -3,7 +3,7 @@ A GUI-based tool for ImageJ designed to streamline the colocalization analysis p
 
 <a href="https://zenodo.org/badge/latestdoi/632691470"><img src="https://zenodo.org/badge/632691470.svg" alt="DOI"></a>
 
-### MIT License
+### MIT License 
 
 ![Script Composite](https://user-images.githubusercontent.com/131828718/234436550-63974c89-84f3-465d-ad21-87a0da60d65f.png)
  
