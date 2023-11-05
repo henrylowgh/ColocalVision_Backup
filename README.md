@@ -9,7 +9,7 @@ A GUI-based tool for ImageJ designed to streamline the colocalization analysis p
  
 
 # To download:   
-``` 
+```  
 git clone https://github.com/henryghlow/ColocalVision
 ```
  
