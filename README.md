@@ -1,7 +1,7 @@
 # ColocalVision
 A GUI-based tool for ImageJ designed to streamline the colocalization analysis process for fluorescent microscopy images, by assisting masking &amp; thresholding procedures, featuring automated thresholding, channel computations, masking operations, and more
 
-<a href="https://zenodo.org/badge/latestdoi/632691470"><img src="https://zenodo.org/badge/632691470.svg" alt="DOI"></a>
+[comment]: <> (<a href="https://zenodo.org/badge/latestdoi/632691470"><img src="https://zenodo.org/badge/632691470.svg" alt="DOI"></a>)
  
 ### MIT License 
 
