@@ -1,29 +1,19 @@
 # ColocalVision
 A GUI-based tool for ImageJ designed to streamline the colocalization analysis process for fluorescent microscopy images, by assisting masking &amp; thresholding procedures, featuring automated thresholding, channel computations, masking operations, and more
 
-[comment]: <> (<a href="https://zenodo.org/badge/latestdoi/632691470"><img src="https://zenodo.org/badge/632691470.svg" alt="DOI"></a>)
- 
-### MIT License 
-
 ![Script Composite](https://user-images.githubusercontent.com/131828718/234436550-63974c89-84f3-465d-ad21-87a0da60d65f.png)
-  
-  
-# To download:    
-```  
-git clone https://github.com/henryghlow/ColocalVision
-```
- 
+
 # To use:
 
-(1)	Set up a folder containing all of the images you want to include in your batch analysis.
+(1)	Set up a folder containing all of the images you want to include in your batch analysis.  
 (2)	Run the BatchThresholdAnalysis.ijm script from the "Plugins > Run" tab at the ImageJ menu.  
-(3)	The user interface will pop up. Select your preferences and click “Run.”
-(4)	The script will automatically prompt you to select your target input folder. 
-(5)	After you have selected an input folder, click through the default BioFormat settings every time the prompt pops up (this is the options window that loads every time you open a file in ImageJ). This step aside, the script will automate the rest of the image processing. 
-(6)	Once the script's done running, it will prompt you to save the resulting threshold value table as a .csv or .tsv file to load into Excel later. You can choose to close this prompt if you don't want to save it. Either way, the values will also show up in a separate tabulated window in ImageJ. You can also save it as a spreadsheet file directly from this window.
-(7)	Open the specific cropped image that you want to analyze. Run the AnalyzeImage.ijm script from "Plugins > Run" at the ImageJ menu. 
-(8)	The user interface will pop up. Input the average threshold values (general practice for decimal values is to round up to the nearest integer) for each channel. Adjust the other parameters as needed. Click “Run.”
-(9)	The script will automatically perform the thresholding and produce the measurements/data/results in tables. You can save the tables as a spreadsheet compatible with Excel.
+(3)	The user interface will pop up. Select your preferences and click “Run.”  
+(4)	The script will automatically prompt you to select your target input folder.  
+(5)	After you have selected an input folder, click through the default BioFormat settings every time the prompt pops up (this is the options window that loads every time you open a file in ImageJ). This step aside, the script will automate the rest of the image processing.  
+(6)	Once the script's done running, it will prompt you to save the resulting threshold value table as a .csv or .tsv file to load into Excel later. You can choose to close this prompt if you don't want to save it. Either way, the values will also show up in a separate tabulated window in ImageJ. You can also save it as a spreadsheet file directly from this window.  
+(7)	Open the specific cropped image that you want to analyze. Run the AnalyzeImage.ijm script from "Plugins > Run" at the ImageJ menu.  
+(8)	The user interface will pop up. Input the average threshold values (general practice for decimal values is to round up to the nearest integer) for each channel. Adjust the other parameters as needed. Click “Run.”  
+(9)	The script will automatically perform the thresholding and produce the measurements/data/results in tables. You can save the tables as a spreadsheet compatible with Excel.  
 
 ## Batch Processing Auto-Threshold Analysis Script Notes:
 - This script is used to calculate the average threshold values produced by autothresholding of a large batch of image files. These values can be calculated using a variety of autothreshold algorithms of differing signal sensitivity, which can be selected according to the user’s specific needs. These averaged threshold values for each channel are then displayed in a custom ImageJ table and also automatically saved as a .csv/.tsv/Excel file. These values can be inputted into the colocalization analysis script, with the goal of enabling greater consistency across image analyses.
